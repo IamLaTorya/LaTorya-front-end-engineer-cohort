@@ -1,9 +1,31 @@
 body {
     background-color: pink; /* update the main background color for your page */
+    font-family: "Cedarville Cursive", cursive;
+    font-style: normal;
+
 }
 
 main {
     background-color: white;
     margin: 30px;
     min-height: 100vh;
+}
+p {
+    color: rgb(39, 27, 118);
+}
+h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+}
+h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 500;
+}
+h3 {
+    font-weight: 400;
+}
+h4 {
+    font-weight: 600;
 }
