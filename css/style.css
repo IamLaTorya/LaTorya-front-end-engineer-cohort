@@ -29,3 +29,24 @@ h3 {
 h4 {
     font-weight: 600;
 }
+p{
+    color: #245352
+}
+ul{
+    color: rgb(57, 2, 107);
+}
+body{
+      font-family: "Freckle Face", system-ui;
+      font-weight: 400;
+      font-style: normal;
+}
+h3{
+    font-size: 1.25rem;
+    line-height: 1.4;
+    font-weight: 600;
+}
+h4{
+    font-size: 1.25rem;
+    line-height: 1.4;
+    font-weight: 500;
+}
