@@ -12,6 +12,10 @@
 </head>
 
 <body>
+    <a href="#" class="active-link">Home</a>
+    <a href="/blog/blog1.html">Blog 1</a>
+    <a href="/blog/blog2.html">Blog 2</a>
+    <a href="/blog/blog3.html">Blog 3</a>
 
     <!-- Create a main element with a border around it  -->
     <main class="main-border">
@@ -19,9 +23,11 @@
             <img src="/images/temp-logo.png" alt="main logo" />
             <h1>LaTorya is the Best!</h1>
             <img src="/images/temp-main-image.png" alt="sale information" />
-            <article>
+            <article class="scavenger-hunt">
                 <img src="/images/icons/1.png" alt="" />
                 <p>LaTorya is still the best!</p>
+
+                <p class="show-on-hover">You Found Me! Hahahaha! You win, nothing!</p>
             </article>
             <article>
                 <img src="/images/icons/2.png" alt="" />
@@ -34,19 +40,26 @@
         </section>
         <section>
             <h2>The Blog</h2>
-            <article>
-                <img src="/images/blogCards/1.png" alt="" />
-                <p>Equidem soleo etiam quod uno Graeci, si aliter non possum idem pluribus.</p>
-            </article>
             <h3>Your Section Title</h3>
             <h4>Some supporting text!</h4>
             <article>
-                <img src="/images/blogCards/2.png" alt="" />
-                <p>Equidem soleo etiam quod uno Graeci, si aliter non possum idem pluribus.</p>
+                <a href="/blog/blog1.html">
+                    <img src="/images/blogCards/1.png" alt="" />
+                    <p>Equidem soleo etiam quod uno Graeci, si aliter non possum idem pluribus.</p>
+                </a>
+            </article>
+
+            <article>
+                <a href="/blog/blog2.html">
+                    <img src="/images/blogCards/2.png" alt="" />
+                    <p>Equidem soleo etiam quod uno Graeci, si aliter non possum idem pluribus.</p>
+                </a>
             </article>
             <article>
-                <img src="/images/blogCards/3.png" alt="" />
-                <p>Equidem soleo etiam quod uno Graeci, si aliter non possum idem pluribus.</p>
+                <a href="/blog/blog3.html">
+                    <img src="/images/blogCards/3.png" alt="" />
+                    <p>Equidem soleo etiam quod uno Graeci, si aliter non possum idem pluribus.</p>
+                </a>
             </article>
         </section>
         <section>
@@ -54,15 +67,33 @@
             <button>Check My LinkedIn</button>
         </section>
         <section>
-            <div><img src="/images/socialIcons/1.png" alt="" /> LinkedIn</div>
-            <div><img src="/images/socialIcons/2.png" alt="" /> YouTube</div>
-            <div><img src="/images/socialIcons/3.png" alt="" /> Instagram</div>
+            <div>
+                <a href="www.linkedin.com/in/iamlatorya"
+                target="_blank"
+                >
+                    <img src="/images/socialIcons/1.png" alt="" /> LinkedIn
+                </a>
+            </div>
+            <div>
+                <a href="/"
+                target="_blank"
+                >
+                    <img src="/images/socialIcons/2.png" alt="" /> YouTube
+                </a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/divinelylatorya/"
+                target="_blank"
+                >
+                    <img src="/images/socialIcons/3.png" alt="" /> Instagram
+                </a>
+            </div>
         </section>
 
 
-    <footer>
-        <p>Copyright 2025, YOUR NAME. All Rights Reserved.</p>
-    </footer>
+        <footer>
+            <p>Copyright 2025, YOUR NAME. All Rights Reserved.</p>
+        </footer>
 
     </main>
 </body>
