@@ -13,6 +13,14 @@ main {
 p {
     color: rgb(39, 27, 118);
 }
+.bio{
+    font-size: 1.25rem;
+    font-family: georgia;
+    line-height: 1.2;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(26, 8, 128);
+}
 h1 {
     font-size: 3rem;
     line-height: 1.2;
@@ -55,8 +63,9 @@ h4{
     font-weight: 500;
 }
 .active-link{
-    font-weight: 800;
+    font-weight: bold;
     text-decoration: none;
+    color: _;
 }
 .show-on-hover{
     display: none;
@@ -66,4 +75,8 @@ h4{
 }
 .scavenger-hunt:focus .show-on-hover{
     display: block;
+}
+.cta-link:hover,
+.cta-link:focus {
+  text-shadow: 2px 2px 12px cyan;
 }
