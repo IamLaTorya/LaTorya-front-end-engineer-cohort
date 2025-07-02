@@ -1,5 +1,6 @@
 body {
-    background-color: pink; /* update the main background color for your page */
+    background-color: pink;
+    /* update the main background color for your page */
     font-family: "Cedarville Cursive", cursive;
     font-style: normal;
 
@@ -10,10 +11,12 @@ main {
     margin: 30px;
     min-height: 100vh;
 }
+
 p {
     color: rgb(39, 27, 118);
 }
-.bio{
+
+.bio {
     font-size: 1.25rem;
     font-family: georgia;
     line-height: 1.2;
@@ -21,76 +24,102 @@ p {
     font-style: italic;
     color: rgb(26, 8, 128);
 }
+
 h1 {
     font-size: 3rem;
     line-height: 1.2;
     font-weight: 600;
 }
+
 h2 {
     font-size: 2rem;
     line-height: 1.2;
     font-weight: 500;
 }
+
 a:hover,
-a:focus{
+a:focus {
     text-shadow: 1px 1px 11px green;
 }
+
 h3 {
     font-weight: 400;
 }
+
 h4 {
     font-weight: 600;
 }
-p{
+
+p {
     color: #245352
 }
-ul{
+
+ul {
     color: rgb(57, 2, 107);
 }
-body{
-      font-family: "Freckle Face", system-ui;
-      font-weight: 400;
-      font-style: normal;
+
+body {
+    font-family: "Freckle Face", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
-h3{
+
+h3 {
     font-size: 1.25rem;
     line-height: 1.4;
     font-weight: 600;
 }
-h4{
+
+h4 {
     font-size: 1.25rem;
     line-height: 1.4;
     font-weight: 500;
 }
-.active-link{
+
+.active-link {
     font-weight: bold;
     text-decoration: none;
     color: _;
 }
-.show-on-hover{
+
+.show-on-hover {
     display: none;
 }
-.scavenger-hunt:hover .show-on-hover{
+
+.scavenger-hunt:hover .show-on-hover {
     display: block;
 }
-.scavenger-hunt:focus .show-on-hover{
+
+.scavenger-hunt:focus .show-on-hover {
     display: block;
 }
+
 .cta-link:hover,
 .cta-link:focus {
-  text-shadow: 2px 2px 12px cyan;
+    text-shadow: 2px 2px 12px cyan;
 }
-.blog-img{
+
+.blog-img {
     border: 5px dotted red;
     width: 60%;
     height: auto;
     padding: 15px;
     margin: 20px;
 }
-.gallery-img{
+
+.gallery-img {
     border: 5px solid black;
     width: 21%;
     height: auto;
     padding: 5px;
     margin: 2%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 20%;
+    height: auto;
+    margin: 1%
 }
