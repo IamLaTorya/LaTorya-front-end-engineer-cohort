@@ -80,3 +80,17 @@ h4{
 .cta-link:focus {
   text-shadow: 2px 2px 12px cyan;
 }
+.blog-img{
+    border: 5px dotted red;
+    width: 60%;
+    height: auto;
+    padding: 15px;
+    margin: 20px;
+}
+.gallery-img{
+    border: 5px solid black;
+    width: 21%;
+    height: auto;
+    padding: 5px;
+    margin: 2%;
+}
