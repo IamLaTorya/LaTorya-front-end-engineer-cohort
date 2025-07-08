@@ -117,9 +117,15 @@ h4 {
 
 .container {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 20%;
+    justify-content: space-around;
+    align-items: normal;
+    width: 30%;
     height: auto;
-    margin: 1%
+    padding: 7px;
+    margin: 0 1rem;
+}
+
+.resize-image {
+    width: 100%;
+    height: auto;
 }
