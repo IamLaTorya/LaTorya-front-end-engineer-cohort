@@ -23,7 +23,9 @@ p {
     font-weight: bolder;
     font-style: italic;
     color: rgb(26, 8, 128);
+    margin: 2%;
 }
+
 
 h1 {
     font-size: 3rem;
